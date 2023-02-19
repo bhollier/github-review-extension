@@ -1,0 +1,12 @@
+# Ignore webpack configuration file
+webpack.config.js
+
+# Ignore Cypress files
+**/cypress/**/*.*
+
+# Ignore any derived files, these are not modified by user
+**/lib/*.d.ts
+**/bin/*.d.ts
+
+# Ignore installed packages
+node_modules/
